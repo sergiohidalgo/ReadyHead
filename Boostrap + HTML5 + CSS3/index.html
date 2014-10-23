@@ -1,93 +1,38 @@
 <!DOCTYPE html>
-<html lang="es-419">
-<!--  
-*Skeletor Bootstrap 3 HTML
-
-* Idioma del sitio
-
-es-419	= Español Latino America
-es 		= Español
-en		= Ingles
-
--->
-<!-- 
-
-Hola, mi nombre es Sergio Hidalgo y creado Skeletor lo que no es
-la mejor plantillas en blanco para empezar nuestro proecto web,
-creeme que aqui esta lo necesario y escencial para que tu sitio cumpla
-con los estandares acttuales
-
-Recuerda eliminar los comentarios que no necitaras, estos son los que 
-tienen asteriscos (*) solo espero que dejes el archivo creditos.js,
-yo te considero una persona agradecida por mi trabajo. Exito !!
-
-por: Sergio Hidalgo
-sergiohidalgo.cl
-facebook.com/sergiohidalgo.cl
-github.com/sergiohidalgo
-twitter.com/sergio_hidalgo
-yo@sergiohidalgo.cl
-
- -->
+<html lang="es">
+<!-- es-419 = Español Latino America | es = Español | en = Ingles -->
 <head>
     <meta charset="UTF-8">
-    <title>Skeleton Bootstrap HTML</title>
-    <meta name="author" content="Sergio Hidalgo">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Skeleton Bootstrap HTML</title>
+    <meta name="description" content="Descripcion_de_la_web" />
+    <meta name="author" content="Sergio Hidalgo">
+    <link rel="author" href="https://plus.google.com/PERFIL_GPLUS_DE_LA_WEB" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <!-- 
-	* Opciones de Viewport 
-
+    <!-- Otros Viewport 
 	No escalable: 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	
 	Viewport ancho fijo:
 	<meta name="viewport" content="width=960, maximum-scale=1"> 
-	(en este caso el 960, cambiar el valor por el deseado)
 	-->
-
-    <!-- Librerías opcionales que activan el soporte de HTML5 para IE8 -->
-    <!--[if lt IE 9]>
-      <script src="js/soporte-html5/html5shiv.js"></script>
-      <script src="js/soporte-html5/respond.min.js"></script>
-    <![endif]-->
-
     <!-- SEO  -->
     <!-- Para que los spider robots no encuentreen y lean  -->
+    <meta name="GOOGLEBOT" content="NOODP">
+    <meta name="googlebot" content="noodp">
     <meta name="robots" content="noodp,noydir" />
     <link rel="canonical" href="SITIO WEB URL" />
     <meta property="og:locale" content="es_CL" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="SITIO WEB URL" />
     
-    
     <!-- Icono Para iPhone, iPod Touch y Android (128 x 128) -->
-    <link rel="apple-touch-icon-precomposed" href="<?php bloginfo('template_directory'); ?>/images/icon/cron_72.png">
-    <!-- Icono 
-    Este icono se visualiza en tamaño 16 x 16 pero se recomienda hacerlo en 72 x 72 ya que 
-    en moviles se puede usar como icono y se vera como app -->
-    <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/images/icon/cron_72.png" />
-
-
-    <!-- Descripción -->
-    <meta name="description" content="Pequeña descripción">
-    
-    <!--
-    Creditos Skeletor 
-	
-	Skeletor versión BETA
-	por SergioHidalgo.cl
-	github.com/sergiohidalgo
-    
-    -->
+    <link rel="apple-touch-icon-precomposed" href="#">
+    <!-- Icono 72 x 72  -->
+    <link rel="shortcut icon" href="#" />
 
     <!-- Verción min de archivos Bootstrap 3.2.0 -->
-    <!-- CSS -->
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
-    <!-- Theme Opcional -->
     <link rel="stylesheet" href="bootstrap/bootstrap-theme.min.css">
-    <!-- JavaScript -->
     <script src="bootstrap/bootstrap.min.js"></script>
 	
 	<!-- Estilos -->
@@ -97,63 +42,38 @@ yo@sergiohidalgo.cl
     <script type="text/javascript" charset="utf-8" src="js/jquery-2.1.1.js"></script>
     <script type="text/javascript" charset="utf-8" src="js/script.js"></script>
 
+    <!-- Librerías para activan el soporte de HTML5 para IE8 -->
+    <!--[if lt IE 9]>
+      <script src="js/soporte/html5/html5shiv.js"></script>
+      <script src="js/soporte/html5/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Librerías para pseudo elementos y pseudo clases CSS3-->
+    <!--[if (gte IE 6)&(lte IE 8)]>
+      <script type="text/javascript" src="js/soporte/css3/selectivizr.js"></script>
+    <![endif]-->
+    
+    <!-- Prefijos a tu css3 automaticos solo en el lado del servidor -->
+    <script type="text/javascript" src="js/soporte/css3/prefixfree.min.js"></script>
+    <!-- Prefijos a tu css3 automaticos solo en el lado del servidor -->
+    <script type="text/javascript" src="js/soporte/modernizr.js"></script>
+
 </head>
 
 <body>
 
-<!--
 
-Quisas no te acuerdad de las etiquetas de HTML5, o quisas no todas, aqui un ejemplo
 
- -->
-
- <header>
-     <h1 id="logo">Logo del sitio</h1>
- </header>
- <main>
-     <section>
-         <article class="post">
-             <h2>Hola mundo</h2>
-             <h3>Hola mundo</h3>
-             <h4>Hola mundo</h4>
-             <h5>Hola mundo</h5>
-             <h6>Hola mundo</h6>
-             <p>Lorem ipsum dolor sit amet, <span>consectetur</span> adipisicing elit. Molestias assumenda dolorem est, accusantium eligendi odit, suscipit iusto ullam cupiditate consectetur! Saepe rem perspiciatis necessitatibus, pariatur alias obcaecati explicabo accusantium eaque.</p>
-         </article>
-         <article class="post">
-             <!-- Tabla de 3 x 3 -->
-             <table border="0" cellspacing="0" cellpadding="0">
-               <tbody>
-                 <tr>
-                   <td>1</td>
-                   <td>2</td>
-                   <td>3</td>
-                 </tr>
-                 <tr>
-                   <td>4</td>
-                   <td>5</td>
-                   <td>6</td>
-                 </tr>
-                 <tr>
-                   <td>7</td>
-                   <td>8</td>
-                   <td>9</td>
-                 </tr> 
-               </tbody>
-             </table>
-         </article>
-     </section>
-     <hr>
- </main>
- <aside>
-     
- </aside>
- <footer>
- <address>
-     Dirección
- </address>
- </footer>
-
+<footer>
+<!-- Validador de codigo -->
+<script type="text/javascript" src="//ajax.microsoft.com/ajax/jquery.validate/1.5.5/jquery.validate.min.js"></script>
+<!--[if lte IE 7 ]>
+    soporte para ie7 o anterior
+    <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+    <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+<![endif]-->
+<!-- @freddier -->
+</footer>
 </body>
 
 </html>	
