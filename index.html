@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Skeletor : Estructura para comenzar proyecto web en HTML y Bootstrap">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Skeletor</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/sergiohidalgo/Skeletor">View on GitHub</a>
+
+          <h1 id="project_title">Skeletor</h1>
+          <h2 id="project_tagline">Estructura para comenzar proyecto web en HTML y Bootstrap</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/sergiohidalgo/Skeletor/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/sergiohidalgo/Skeletor/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p>&lt;!DOCTYPE html&gt;</p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+    
+    
+
+<pre><code>&lt;title&gt;Skeleton Bootstrap HTML CDN&lt;/title&gt;
+
+&lt;meta name="description" content="Descripcion_de_la_web" /&gt;
+&lt;meta name="author" content="Sergio Hidalgo"&gt;
+&lt;link rel="author" href="https://plus.google.com/PERFIL_GPLUS_DE_LA_WEB" /&gt;
+
+&lt;!-- Open Graph Protocolo Basic// info: http://ogp.me --&gt;
+&lt;meta property="og:title" content="Titulo_de_la_web" /&gt;
+&lt;meta property="og:type" content="video.movie" /&gt; &lt;!-- http://ogp.me/#types --&gt;
+&lt;meta property="og:url" content="http://www.imdb.com/title/tt0117500/" /&gt;
+&lt;meta property="og:image" content="http://ia.media-imdb.com/images/rock.jpg" /&gt;
+&lt;meta property="og:locale" content="es_CL" /&gt;
+
+&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+&lt;!-- Otros Viewport :
+     No escalable          : &lt;meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"&gt;
+     Viewport ancho fijo   : &lt;meta name="viewport" content="width=960, maximum-scale=1"&gt; 
+--&gt;
+
+&lt;!-- SEO  
+recomiendo visitar deteresa.com/etiquetas-meta/ para más información --&gt;
+&lt;meta name="robots" content="index, follow"&gt;
+&lt;!-- Meta name="robots" :
+     index    = Permite la indexación
+     follow   = Permite el rastreo
+     noindex  = NO permite indexación
+     nofollow = NO permite el rastreo
+
+     index y follow se define por defecto
+--&gt;
+&lt;meta name="googlebot" content="noodp"&gt;
+&lt;meta name="robots" content="noodp,noydir" /&gt;
+&lt;link rel="canonical" href="SITIO_WEB_URL" /&gt;
+
+&lt;!-- jQuery --&gt;
+&lt;script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"&gt;&lt;/script&gt;
+
+&lt;!-- Icono --&gt;
+&lt;link rel="apple-touch-icon-precomposed" href="#"&gt; &lt;!-- iPhone, iPod Touch y Android (recomendado 128 x 128 px) --&gt;
+&lt;link rel="shortcut icon" href="#" /&gt;&lt;!-- Icono web (recomendado 72 x 72 px) --&gt;
+
+&lt;!-- Bootstrap 3.2.0--&gt;
+&lt;link rel="stylesheet" href="http://ajax.aspnetcdn.com/ajax/bootstrap/3.2.0/css/bootstrap.min.css"&gt;
+&lt;link rel="stylesheet" href="http://ajax.aspnetcdn.com/ajax/bootstrap/3.2.0/css/bootstrap-theme.min.css"&gt;
+&lt;script src="http://ajax.aspnetcdn.com/ajax/bootstrap/3.2.0/bootstrap.min.js"&gt;&lt;/script&gt;
+
+&lt;!-- Estilos --&gt;
+&lt;link rel="stylesheet" type="text/css" href="style.css" title="Hoja de esilo principal"&gt;
+
+&lt;!-- Librerías para activan el soporte de HTML5 para IE8 --&gt;
+&lt;!--[if lt IE 9]&gt;
+    &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+    &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+&lt;![endif]--&gt;
+
+&lt;!-- Librerías para pseudo elementos y pseudo clases CSS3 desde ie8 hacia abajo--&gt;
+&lt;!--[if (gte IE 6)&amp;(lte IE 8)]&gt;
+  &lt;script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"&gt;&lt;/script&gt;
+&lt;![endif]--&gt;
+
+&lt;!-- Prefijos a tu css3 automaticos --&gt;
+&lt;script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"&gt;&lt;/script&gt;
+&lt;!-- Volver el navegador en moderno modernizr --&gt;
+&lt;script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.7.2.js"&gt;&lt;/script&gt;
+
+&lt;!-- Validador de fomularios (Opcional) --&gt;
+&lt;script type="text/javascript" src="//ajax.microsoft.com/ajax/jquery.validate/1.5.5/jquery.validate.min.js"&gt;&lt;/script&gt;
+
+&lt;!-- Angular --&gt;
+&lt;script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"&gt;&lt;/script&gt;
+
+&lt;!-- Mis script --&gt;
+&lt;script type="text/javascript" charset="utf-8" src="js/script.js"&gt;&lt;/script&gt;
+</code></pre>
+
+<p></p>
+
+<p></p>
+
+<p> </p>
+
+
+
+<p>
+</p>
+
+<p> </p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Skeletor maintained by <a href="https://github.com/sergiohidalgo">sergiohidalgo</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
