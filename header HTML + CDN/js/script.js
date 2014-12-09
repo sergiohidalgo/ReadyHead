@@ -1,3 +1,5 @@
 jQuery(document).ready(function() {
-        //funcion jQuery
-    });
+
+    //funcion jQuery
+    
+});
