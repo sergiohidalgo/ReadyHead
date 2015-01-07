@@ -9,14 +9,11 @@ IE8 contenido:
 
 Codigo:
 --------------
-- [Protocolo Open Graph](http://ogp.me)
+- Protocolo Open Graph [web](http://ogp.me)
 - Metas de Autor
 - Viewport con opciones
-- Metas SEO
+- Metas SEO [más info](http://deteresa.com/etiquetas-meta)
 - Uso de HTML5
-- Placeholder para input
-- Reproducción de video y audio con HTML5
-- Selectores de CSS3
 
 Librerias:
 -------------
@@ -24,6 +21,9 @@ Librerias:
 - jQuery / 1.0.9 / 2.1.1 / UI
 - CSS Normalizer + reset propio
 - Modernizr
+- Placeholder para input
+- Reproducción de video y audio con HTML5
+- Selectores de CSS3
 
 *Presta atención que solo los archivos que pueden ser llamados desde un CDN están así (CDN son los archivos llamados desde un servidor externo y los más probable es que el visitante los tenga en cache) los que no, están alojados dentro de la carpeta con una estructura lógica y es porque así funcionan.
 
