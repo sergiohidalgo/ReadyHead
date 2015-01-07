@@ -29,5 +29,4 @@ Presta atenciÃ³n que solo los archivos que pueden ser llamados desde un CDN estÃ
 
 Tu sitio se vera igual desde el IE que selecciones hasta el navegador moderno que tu estas usanto. Esto si es solo en estructura y las funciones mas comunes de HTML5 (videos, audios, nuevas etiquetas) y en el caso de CSS3 solo en los selectores, no funcionaran las animaciones.
 
-> recuerda eliminar los comentarios del html que no necesites
-> * a
+*italic* recuerda eliminar los comentarios del html que no necesites *italic*
