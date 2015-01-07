@@ -3,17 +3,31 @@
 <!--[if IE 7]><html class="ie7" lang="es"><head><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /><script>window.ie = 7;</script><![endif]-->
 <!--[if IE 8]><html class="ie8" lang="es"><head><script>window.ie = 8;</script><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" /><![endif]-->
 <!--[if gt IE 8]><html class="ie9" lang="es"><head><script>window.ie = 9; <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" /></script><![endif]-->
-<!--[if !IE]><!--><html lang="es" prefix="og: http://ogp.me/ns#" xmlns:og="http://ogp.me/ns#"><head><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" /><!--<![endif]-->
+<!--[if !IE]><!--><html lang="es" prefix="og: http://ogp.me/ns#" xmlns:og="http://ogp.me/ns#"><head><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><!--<![endif]-->
 <!-- LANG: es-419 = Español Latino America | es = Español | en = Ingles -->
     
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
     <title>Web sin titulo</title>
     
     <meta name="description" content="Descripcion_de_la_web" />
     <meta name="author" content="Sergio Hidalgo" />
     <link rel="author" href="https://plus.google.com/PERFIL_GPLUS_DE_LA_WEB" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Otros Viewport :
+         No escalable          : <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+         Viewport ancho fijo   : <meta name="viewport" content="width=960, maximum-scale=1"> 
+	-->
+    <meta name="MobileOptimized" content="320" />
+    <meta http-equiv="cleartype" content="on" />
+    
+    
+    <!-- Icono -->
+    <link rel="apple-touch-icon-precomposed" href="#" /> <!-- iPhone, iPod Touch y Android (recomendado 128 x 128 px) -->
+    <link rel="shortcut icon" href="#" /><!-- Icono web (recomendado 72 x 72 px) -->
+    <link type="image/ico" rel="icon" href="#" />
     
     <!-- SEO  
     recomiendo visitar deteresa.com/etiquetas-meta/ para más información -->
@@ -25,7 +39,17 @@
          nofollow = NO permite el rastreo
          
          index y follow se define por defecto
+         
     -->
+    
+    <!-- Open Graph Protocolo Basic// info: http://ogp.me -->
+    <meta property="og:title" content="Titulo_de_la_web" />
+    <meta property="og:type" content="video.movie" /> <!-- http://ogp.me/#types -->
+    <meta property="og:url" content="#" />
+    <meta property="og:image" content="#" />
+    <meta property="og:locale" content="es_ES" />
+    
+    
     <meta name="googlebot" content="noodp" />
     <meta name="robots" content="noodp,noydir" />
     <link rel="canonical" href="SITIO_WEB_URL" />
@@ -33,22 +57,24 @@
     <!-- Pluggins -->
     
     <!-- Bootstrap 3.2.0-->
-    <link rel="stylesheet" href="pluggins/bootstrap/bootstrap.min.css" />
-    <link rel="stylesheet" href="pluggins/bootstrap/bootstrap-theme.min.css" />
-    <link rel="stylesheet" href="pluggins/bootstrap/bootstrap_ms.css" />
+    <link rel="stylesheet" type="text/css" href="pluggins/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="pluggins/bootstrap/bootstrap-theme.min.css" />
+    <link rel="stylesheet" type="text/css" href="pluggins/bootstrap/bootstrap_ms.css" />
     <script type="text/javascript" src="pluggins/bootstrap/bootstrap.min.js"></script>
-    
     
     <!-- jQuery -->
     <script type="text/javascript" src="pluggins/jquery/jquery-1.0.9.min.js"></script>
     <script type="text/javascript" src="pluggins/jquery/jquery-2.1.1.min.js"></script>
     <!-- jQuery UI (jqueryui.com) -->
-    <link rel="stylesheet" href="pluggins/jquery/jquery-ui-1.11.2.css" />
+    <link rel="stylesheet" type="text/css" href="pluggins/jquery/jquery-ui-1.11.2.css" />
     <script type="text/javascript" src="pluggins/jquery/jquery-ui-1.11.2.min.js"></script>
 	
 	<!-- Estilos -->
     <link rel="stylesheet" type="text/css" href="css/normalizer+reset-sergio.css" />
     <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+    
+    <!-- Videos y audio HTML -->
+    <script src="http://api.html5media.info/1.1.8/html5media.min.js"></script>
     
     <!-- Compatibilidad IE 9 hacia atras -->
     <!--[if lt IE 10]>
