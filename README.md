@@ -1,6 +1,5 @@
 #ReadyHead#
 ###Tu sitio se vera igual desde el IE que selecciones hasta el navegador moderno que tu estas usanto.###
-========
 
 Este archivo es para que comiences tu sitio web y sea compatible lo mas posible desde IE7 o IE8, la diferencia entre los 2 es que en IE7 no podras ocupar Bootstrap asi que no pienses en un sitio responsivo.
 
