@@ -1,43 +1,26 @@
 ReadyHead
 ========
 
-Todos sabemos que lo mas importante para el funcionamiento de nuestro sitio son las librerías que vamos a ocupar y aun mas si queremos que nuestra web sea compatible para una gran cantidad de navegadores. Es por eso que decidí crear estos archivos los cuales tienen las librerías necesarias para que cuando comenzamos un proyecto este sea compatible desde un principio (en la estructura).
+Este archivo es para que comiences tu sitio web y sea compatible lo mas posible desde IE7 o IE8, la diferencia entre los 2 es que en IE7 no podras ocupar Bootstrap.
 
-Tú decides si quieres partir desde IE7 o IE8
+La idea principar es que tu proyecto lo hagas utilizando HTML5 y CSS3 con todas las modernidades que estos lenguajes trae. Tú decides si quieres partir desde IE7 o IE8 seleccionando la carpeta necesaria.
 
+IE8 contenido:
 
-IE8 funcionamiento:
-El contenido de esta carpeta está hecho para que el sitio sea responsivo utilizando Bootstrap desde IE8 y llamando desde CDN lo que se pueda.
-
-- Protocolo Open Graph
-- Metas de Autor
-- Viewport con opciones
-- Metas SEO
-- Bootstrap 3
-- jQuery / 1.0.9 / 2.1.1 / UI
-- Responsivo
-- CSS Normalizer + reset propio
-- Uso de HTML5
-- Placeholder para input
-- Reproducción de video y audio con HTML5
-- Selectores de CSS3
-- Modernizr
-
-IE7 funcionamiento:
-En IE7 aún no podemos hacer que el sitio sea responsivo pero si que reconozca muchas cosas de HTML5.
-
-- Protocolo Open Graph
-- Metas de Autor
-- Viewport con opciones
-- Metas SEO
-- Bootstrap
-- jQuery / 1.0.9 / 2.1.1 / UI
-- Responsivo
-- CSS Normalizer + reset propio
-- Uso de HTML5
-- Placeholder para input
-- Reproducción de video y audio con HTML5
-- Selectores de CSS3 (prefijos CSS3)
+- Codigo:
+- - Protocolo Open Graph
+- - Metas de Autor
+- - Viewport con opciones
+- - Metas SEO
+- - Uso de HTML5
+- - Placeholder para input
+- - Reproducción de video y audio con HTML5
+- - Selectores de CSS3
+- Librerias:
+- - Bootstrap 3 (css/js/css theme)
+- - jQuery / 1.0.9 / 2.1.1 / UI
+- - CSS Normalizer + reset propio
+- - Modernizr
 
 *Presta atención que solo los archivos que pueden ser llamados desde un CDN están así (CDN son los archivos llamados desde un servidor externo y los más probable es que el visitante los tenga en cache) los que no, están alojados dentro de la carpeta con una estructura lógica y es porque así funcionan.
 
