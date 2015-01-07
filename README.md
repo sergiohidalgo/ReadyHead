@@ -15,7 +15,7 @@ La idea principar es que tu proyecto lo hagas utilizando HTML5 y CSS3 con todas 
 - Uso de HTML5
 
 #####Librerias:#####
-- Bootstrap 3 (css/js/css theme)
+- Bootstrap 3 (css/js/col ms/css theme)
 - jQuery / 1.0.9 / 2.1.1 / UI
 - CSS Normalizer + reset propio
 - Modernizr
