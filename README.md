@@ -7,16 +7,14 @@ La idea principar es que tu proyecto lo hagas utilizando HTML5 y CSS3 con todas 
 
 #### IE8 contenido: ####
 
-Codigo:
---------------
+#####Codigo:#####
 - Protocolo Open Graph [web](http://ogp.me)
 - Metas de Autor
 - Viewport con opciones
 - Metas SEO [más info](http://deteresa.com/etiquetas-meta)
 - Uso de HTML5
 
-Librerias:
--------------
+#####Librerias:#####
 - Bootstrap 3 (css/js/css theme)
 - jQuery / 1.0.9 / 2.1.1 / UI
 - CSS Normalizer + reset propio
