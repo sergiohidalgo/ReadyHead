@@ -1,7 +1,7 @@
 ReadyHead
 ========
 
-Este archivo es para que comiences tu sitio web y sea compatible lo mas posible desde IE7 o IE8, la diferencia entre los 2 es que en IE7 no podras ocupar Bootstrap.
+Este archivo es para que comiences tu sitio web y sea compatible lo mas posible desde IE7 o IE8, la diferencia entre los 2 es que en IE7 no podras ocupar Bootstrap asi que no pienses en un sitio responsivo.
 
 La idea principar es que tu proyecto lo hagas utilizando HTML5 y CSS3 con todas las modernidades que estos lenguajes trae. Tú decides si quieres partir desde IE7 o IE8 seleccionando la carpeta necesaria.
 
