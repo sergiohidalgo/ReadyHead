@@ -8,7 +8,7 @@ La idea principar es que tu proyecto lo hagas utilizando HTML5 y CSS3 con todas 
 IE8 contenido:
 
 Codigo:
-=============
+--------------
 - Protocolo Open Graph
 - Metas de Autor
 - Viewport con opciones
@@ -19,7 +19,7 @@ Codigo:
 - Selectores de CSS3
 
 Librerias:
-===========
+-------------
 - Bootstrap 3 (css/js/css theme)
 - jQuery / 1.0.9 / 2.1.1 / UI
 - CSS Normalizer + reset propio
