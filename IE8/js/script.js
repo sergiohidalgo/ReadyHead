@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    //funcion jQuery
+    //funcion jQuery al cargar nuestro documento html
     
 });
 $(window).resize(function(){
